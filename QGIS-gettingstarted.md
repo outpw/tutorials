@@ -6,10 +6,9 @@ nav_order: 1
 ---
 
 # Getting started with QGIS:
-### Background, availability, & orientation  
+### Background,  orientation, recommended Plug-ins
 
 
-#### Background
 
 
 __GIS:__ (Geographic Information System) An integrated collection of computer software and data used to view and manage information about geographic places, analyze spatial relationships, and model spatial processes.
@@ -26,20 +25,45 @@ __QGIS:__ (aka Quantum GIS) An open source GIS desktop application.
 - Runs on Windows, Mac, Linux, ... and Android? Sure, why not!?
 - Current version: Long-Term Release: 3.4.15; Latest Release: 3.10.2
 - [QGIS.org](https://qgis.org)
-- [Show QGIS some love!](https://qgis.org/en/site/about/shop_goodies.html)  
+- [Show QGIS some love by buying a mug or t-shirt!](https://qgis.org/en/site/about/shop_goodies.html)
+- [Download QGIS](https://qgis.org/en/site/forusers/download.html)
+
+### The QGIS Desktop Interface:
+![The QGIS interface][QGIS1]  
+
+__Interface Tips:__
+- The most frequently used toolbars/panels will be visible by default, but if you're missing some of the toolbars or panels visible in the image, you can turn them on under View > Panels or View > Toolbars.
+- Recommended Panels:
+  - Layers Panel
+  - Browser Panel
+- Recommended Toolbars:
+  - Manage Layers toolbar
+- Use the Hand icon as your default cursor to help you navigate.
+- We highly recommend using a mouse (aids with navigation/zoom).
+
+### Plugins!
+
+As an open source project, anyone can develop plugins to use with QGIS. Sometimes if a tool for a particular task isn't available in the regular tools you can find it in Plugins.
+
+To add a plugin, click plugins> Manage and Install Plugins...
+![QGIS Plugin Menu][QGIS14]
+
+You can search and install plugins, view your installed plugins, or install plugins you've downloaded elsewhere from the Plugins Repository.
+![QGIS Plugin Repository][QGIS15]
+
+__Recommended Plugins__
+- QuickMapServices: Easily load basemaps from 20+ providers (check out Stamen Watercolor)
+-QuickOSM: Quickly extract vector data from OpenStreetMap's massive repository.
 
 
-![The QGIS interface][QGIS1]
+### Documentation
+
+QGIS documentation has really improved in the past several years! [View the User Manual, Training Manual (with lessons), and introductory guides](https://docs.qgis.org/3.4/en/docs/).
 
 
+Jump to [Part 2](/QGIS-datatypes)
 
-
-
-
-
-
-
-
+[QGIS0]: img/QGIS0.png "QGIS logo."
 [QGIS1]: img/QGIS1.png "The QGIS user interface."
 [QGIS2]: img/QGIS2.png "There are many ways to add data using the Manage Layers Toolbar."
 [QGIS4]: img/QGIS3.png "Add SpatiaLite Layers dialog box."
@@ -53,6 +77,6 @@ __QGIS:__ (aka Quantum GIS) An open source GIS desktop application.
 [QGIS11]: img/QGIS11.png "The Print Layout interface."
 [QGIS12]: img/QGIS12.png "Useful Print Layout tools."
 [QGIS13]: img/QGIS13.png "Print Layout item properties."
-[GISLibGuide]: https:libguides.colorado.edu/GIS "CU Library GIS guide"
-[GeospatialDataGuide]: https:libguides.colorado.edu/geospatialdata "CU Library geospatial data guide"
-[QGIS.org]: https://qgis.org/en/site/ "Visit QGIS.org to download the software"
+[QGIS14]: img/QGIS14.png "Plugin Menu"
+[QGIS15]: img/QGIS15.png "Plugin Repository"
+[VECTOR]: https://upload.wikimedia.org/wikipedia/commons/3/38/Simple_vector_map.svg "Source: wikimedia"

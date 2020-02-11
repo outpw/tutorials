@@ -6,14 +6,14 @@ nav_order: 2
 
 # QGIS Workshop
 
-Welcome to the QGIS Introductory workshop guide page. During the workshop, we will walk through the information and tasks detailed on these pages. Use the table of contents to navigate through the workshop. If you're new to QGIS, we recommend [Getting Started here!](/QGIS-gettingstarted)
+Welcome to the QGIS Introductory workshop guide page. During the workshop, we will walk through the information and tasks detailed on these pages. Use the table of contents to navigate through the workshop. If you're new to QGIS, we recommend [Getting Started here!](/QGIS-gettingstarted)  
+
+![The QGIS Logo][QGIS0]
 
 
 
 
-
-
-
+[QGIS0]: img/QGIS0.png "QGIS logo."
 [QGIS1]: img/QGIS1.png "The QGIS user interface."
 [QGIS2]: img/QGIS2.png "There are many ways to add data using the Manage Layers Toolbar."
 [QGIS4]: img/QGIS3.png "Add SpatiaLite Layers dialog box."
