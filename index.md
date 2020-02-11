@@ -1,5 +1,5 @@
 ---
 
-title: Title of page
+title: Workshops Available
 nav_order: 1
 ---
