@@ -61,7 +61,7 @@ __Recommended Plugins__
 QGIS documentation has really improved in the past several years! [View the User Manual, Training Manual (with lessons), and introductory guides](https://docs.qgis.org/3.4/en/docs/).
 
 
-Jump to [Part 2](/QGIS-datatypes)
+Jump to [Part 2](/QGIS-datatypes.html)
 
 [QGIS0]: img/QGIS0.png "QGIS logo."
 [QGIS1]: img/QGIS1.png "The QGIS user interface."
