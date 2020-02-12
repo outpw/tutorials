@@ -46,14 +46,30 @@ For shapefiles and typical rasters, you can use the add vector or raster buttons
 
 ![Add data using the Layer Manager Toolbar][QGIS2]
 
+...shapefiles? That's so 90's! __Let's add a SpatiaLite layer:__
+
+1. Click the SpatialLite button:![SpatialLite Button][QGIS3]
+2. Under Connections, click "New" then navigate to the COLORADO.sqlite workshop data and click Open. The COLORADO.sqlite database should appear in the drop down menu.
+3. Click "Connect"
+4. Use SHIFT+click to select all layers, then click "ADD"
+5. Click "ADD"
+
+Congrats, you have a big hot mess (Turn off what you don't need).
+
+![SpatiaLite dialog][QGIS4]
+
+Now let's work on visualizing and styling this data. [Move on to part 3](/QGIS-visualization).
+
+
+
 
 
 
 [QGIS0]: img/QGIS0.png "QGIS logo."
 [QGIS1]: img/QGIS1.png "The QGIS user interface."
 [QGIS2]: img/QGIS2.png "There are many ways to add data using the Manage Layers Toolbar."
-[QGIS4]: img/QGIS3.png "Add SpatiaLite Layers dialog box."
-[QGIS3]: img/QGIS4.png "Add SpatiaLite data button."
+[QGIS3]: img/QGIS3.png "Add SpatiaLite data button."
+[QGIS4]: img/QGIS4.png "Add SpatiaLite Layers dialog box."
 [QGIS5]: img/QGIS5.png "The Style tab on the Layer Properties window."
 [QGIS6]: img/QGIS6.png "Add a join button."
 [QGIS7]: img/QGIS7.png "Joining a text file to a layer's attribute table."
