@@ -52,7 +52,7 @@ __Now that the income data has been added to the census tract layer, we can symb
 
 *You made a choropleth! Nice work!*
 
-[Move on to part 4]({% post_url QGIS-analysis %})
+
 
 [QGIS0]: img/QGIS0.png "QGIS logo."
 [QGIS1]: img/QGIS1.png "The QGIS user interface."

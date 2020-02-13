@@ -75,7 +75,7 @@ Spend a few minutes tinkering with hillshade parameters as well as styling of th
 
 *__Pro Tip:__* For folks familiar with ArcGIS and looking for equivalent tools, often the best strategy is to search for the tool name as you know it in ArcGIS along with "QGIS" [Example: "Summary Statistics QGIS"]. This will usually yield good results. If you can't find a tool for a particular task in the QGIS tools, check other tool libraries like GRASS, GDAL, or SAGA, or search the Plugin Repository.
 
-[Move on to part 5]({% post_url QGIS-printcomposer %})
+
 
 
 

@@ -58,8 +58,7 @@ Congrats, you have a big hot mess (Turn off what you don't need).
 
 ![SpatiaLite dialog][QGIS4]
 
-Now let's work on visualizing and styling this data. [Move on to part 3]({% post_url QGIS-visualization %}).
-[Move on to Part 2]({% post_url QGIS-visualization %})
+
 
 
 

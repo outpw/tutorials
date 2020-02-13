@@ -44,7 +44,7 @@ nav_order: 5
 
 ![ExportTools][QGIS29]
 
-[More Resources]({% post_url QGIS-resources %})
+
 
 [QGIS0]: img/QGIS0.png "QGIS logo."
 [QGIS1]: img/QGIS1.png "The QGIS user interface."
