@@ -10,7 +10,7 @@ Welcome to the QGIS Introductory workshop guide page. During the workshop, we wi
 
 ![The QGIS Logo][QGIS0]
 
-
+### [__Download the Workshop Data!__](https://github.com/outpw/workshopdata/raw/master/QGIS_Data.zip)
 
 
 [QGIS0]: img/QGIS0.png "QGIS logo."

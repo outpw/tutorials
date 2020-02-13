@@ -19,11 +19,11 @@ nav_order: 6
 - [QGIS website](https://qgis.org)
 - [Anita Graser](https://anitagraser.com)
 - [Gretchen Peterson](http:///www.gretchenpeterson.com/blog/)
-- [QGIS Uncovered by Steven Bernard]('https://www.youtube.com/playlist?list=PL7HotvlLKHCs9nD1fFUjSOsZrsnctyV2R') (Excellent YouTube series)
-- [GIS Unchained by Alexandre Neto]('https://gisunchained.wordpress.com/')
-- [GIS Stack Exchange]('http://gis.stackexchange.com/')
-- [QGIS Map Showwcase Flickr]('https://www.flickr.com/groups/qgis/pool/')
-- [A Gentle Introduction to QGIS]('https://docs.qgis.org/3.4/en/docs/gentle_gis_introduction/')
+- [QGIS Uncovered by Steven Bernard](https://www.youtube.com/playlist?list=PL7HotvlLKHCs9nD1fFUjSOsZrsnctyV2R) (Excellent YouTube series)
+- [GIS Unchained by Alexandre Neto](https://gisunchained.wordpress.com/)
+- [GIS Stack Exchange](http://gis.stackexchange.com/)
+- [QGIS Map Showwcase Flickr](https://www.flickr.com/groups/qgis/pool/)
+- [A Gentle Introduction to QGIS](https://docs.qgis.org/3.4/en/docs/gentle_gis_introduction/)
 
 
 
