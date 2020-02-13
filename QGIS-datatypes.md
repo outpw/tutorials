@@ -58,8 +58,7 @@ Congrats, you have a big hot mess (Turn off what you don't need).
 
 ![SpatiaLite dialog][QGIS4]
 
-Now let's work on visualizing and styling this data. [Move on to part 3](/QGIS-visualization).
-
+Now let's work on visualizing and styling this data. [Move on to part 3]({% post_url QGIS-visualization %}).
 
 
 
@@ -81,4 +80,18 @@ Now let's work on visualizing and styling this data. [Move on to part 3](/QGIS-v
 [QGIS13]: img/QGIS13.png "Print Layout item properties."
 [QGIS14]: img/QGIS14.png "Plugin Menu"
 [QGIS15]: img/QGIS15.png "Plugin Repository"
+[QGIS16]: img/QGIS16.png "Vector tools"
+[QGIS17]: img/QGIS17.png "Raster tools"
+[QGIS18]: img/QGIS18.png "Toolbox button"
+[QGIS19]: img/QGIS19.png "The Toolbox"
+[QGIS20]: img/QGIS20.png "Points in Polygon"
+[QGIS21]: img/QGIS21.png "Count Points in Polygon"
+[QGIS22]: img/QGIS22.png "Points in Poly dialog"
+[QGIS23]: img/QGIS23.png "Raster Analysis Menu"
+[QGIS24]: img/QGIS24.png "Hillshade options"
+[QGIS25]: img/QGIS25.png "Hillshade result"
+[QGIS26]: img/QGIS26.png "Pretty map"
+[QGIS27]: img/QGIS27.png "New Layout Button"
+[QGIS28]: img/QGIS28.png "Use this tool to adjust the map within the frame"
+[QGIS29]: img/QGIS29.png "Map layout export tools"
 [VECTOR]: https://upload.wikimedia.org/wikipedia/commons/3/38/Simple_vector_map.svg "Source: wikimedia"
