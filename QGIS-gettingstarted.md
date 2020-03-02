@@ -61,7 +61,6 @@ __Recommended Plugins__
 QGIS documentation has really improved in the past several years! [View the User Manual, Training Manual (with lessons), and introductory guides](https://docs.qgis.org/3.4/en/docs/).
 
 
-
 [QGIS0]: img/QGIS0.png "QGIS logo."
 [QGIS1]: img/QGIS1.png "The QGIS user interface."
 [QGIS2]: img/QGIS2.png "There are many ways to add data using the Manage Layers Toolbar."
