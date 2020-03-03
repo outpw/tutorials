@@ -1,7 +1,7 @@
 ---
 title: 1. Getting Started
 parent: GeoPandas
-has_children: false
+has_children: true
 nav_order: 1
 ---
 
