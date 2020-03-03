@@ -9,8 +9,8 @@ nav_order: 2
 *Very easy!*
 
 ### Step 1: Go to the Hub:  
-__[geopandas.rc.colorado.edu]('https://geopandas.rc.colorado.edu')__
-This will only be available until tomorrow, but all materials all workshop materials are available on GitHub for later use for later use.  
+__[geopandas.rc.colorado.edu](https://geopandas.rc.colorado.edu)__
+This will only be available until tomorrow, but all workshop materials are available on GitHub for later use.  
 
 ![HubLogin][LogIn]  
 
