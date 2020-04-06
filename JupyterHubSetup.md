@@ -88,7 +88,7 @@ sudo apt install git
 
 There are [different methods of both adding data to your JupyterHub](http://tljh.jupyter.org/en/latest/howto/content/add-data.html) and [distributing data to your users](http://tljh.jupyter.org/en/latest/howto/content/share-data.html#howto-content-share-data). One would be to store data on GitHub and have each individual download it and add it themselves. Another would be to add it to each user's folder. However, there are downsides to those methods: First, having participants add it themselves is one more thing that could fail and that's what we're trying to avoid here, right? Adding it to each person's user directory would require extra planning and hassle on your behalf.
 
-<em>My preferred method</em> is to add all workshop data from a GitHub repository to a read-only folder that all users have access to. Then, during the workshop, they can all read the data and perform tasks without any problems because all of their individual operations take place in RAM; any output files can be written to their own directory.&ast;
+<em>My preferred method</em> is to add all workshop data from a GitHub repository to a read-only folder that all users have access to. Then, during the workshop, they can all read the data and perform tasks without any problems because all of their individual operations take place in RAM; any output files can be written to their own directory.*
 
 A bonus is that by storing the data on GitHub, users can access it later when/if your server is inactive.
 
@@ -104,16 +104,14 @@ Here are the steps:
 ```
 cd ../../
 ```
-The working directory will now be jupyter-your_user_name@ip-your_ip_address:/. An ls command should show you the following directories:
+The working directory will now be jupyter-your_user_name@ip-your_ip_address://. An ```ls``` command should show you the following directories.
 
-<insert image>
-
-3. Next, create a new folder in your data directory named 'workshopdata'. The data directory is located at /srv/data. From your root directory, use the following command:
+3. Next, create a new folder in your data directory named 'workshopdata'. The data directory is located at //srv//data. From your root directory, use the following command:
 ```
 sudo mkdir -p /srv/data/workshopdata
 ```
 
-4. Next, add an alias 'workshopdata' directory to all users' folders. Essentially, this makes a read-only workshopdata folder in each user's directory. All new users will have a workshopdata folder when they log into their space on the JupyterHub. First, change directory to the etc/skel folder:
+4. Next, add an alias 'workshopdata' directory to all users' folders. Essentially, this makes a read-only workshopdata folder in each user's directory. All new users will have a workshopdata folder when they log into their space on the JupyterHub. First, change directory to the etc//skel folder:
 ```
 cd /etc/skel
 ```
@@ -148,7 +146,7 @@ This will add all of your workshop data on GitHub to your JupyterHub's workshopd
 
 Now, each new user will have a read-only data directory in their space on the JupyterHub.
 
-&ast;Using this method underscores the importance of users being able to both navigate filesystems and change directories using Python commands. This means using the Python package 'os'. They'll need to change to their home directories at the beginning of each lesson and access each dataset using the workshopdata/ prefix. [See example here in codeblock 2 and 3](https://outpw.github.io/2.%20Selecting%20%26%20Filtering%20by%20Attributes%3B%20More%20Plotting.html)
+Using this method underscores the importance of users being able to both navigate filesystems and change directories using Python commands. This means using the Python package 'os'. They'll need to change to their home directories at the beginning of each lesson and access each dataset using the workshopdata/ prefix. [See example here in codeblock 2 and 3](https://outpw.github.io/2.%20Selecting%20%26%20Filtering%20by%20Attributes%3B%20More%20Plotting.html)
 
 #### Adding Users to the JupyterHub:
 Adding users to the JupyterHub is extremely easy. Your choice is when to add them. You can add users in advance, which is helpful if you know you will have a large workshop. But because it is so easy to do, I typically create the users on the fly as workshop participants walk into the room. I will ask them what they want their username to be and then create it.
@@ -157,7 +155,7 @@ To create users, click Control Panel in your JupyterHub, then Admin.
 
 Next click add users, then type in user names separated by a return, like this:
 
-<insert image>
+
 
 ### Part 3: Distributing workshop Notebooks
 
