@@ -20,10 +20,10 @@ My Stack:
 
 ***
 Prerequisites:
--[Amazon Web Services](https://aws.amazon.com/) account
--[GitHub](https://github.com/) account & [basic understanding of GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
--Some command line knowledge
--Some Python programming experience
+- [Amazon Web Services](https://aws.amazon.com/) account
+- [GitHub](https://github.com/) account & [basic understanding of GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
+- Some command line knowledge
+- Some Python programming experience
 ***
 ## Part 1: Deploying JupyterHub
 
