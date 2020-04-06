@@ -25,6 +25,7 @@ Prerequisites:
 - Some command line knowledge
 - Some Python programming experience
 ***
+
 ## Part 1: Deploying JupyterHub
 
 The easiest and probably most appropriate deployment of JupyterHub for workshops and smaller classes is [The Littlest Jupyter Hub (TLJH)](http://tljh.jupyter.org/en/latest/). TLJH is ideal for 100 users or less.
