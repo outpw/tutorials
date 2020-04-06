@@ -14,7 +14,11 @@ Phil White, Earth Sciences Librarian, University of Colorado Boulder
 [philip.white@colorado.edu](mailto:philip.white@colorado.edu)
 
 ***
+***
+My Stack:
+![my stack][myStack]
 
+***
 Prerequisites:
 -[Amazon Web Services](https://aws.amazon.com/) account
 -[GitHub](https://github.com/) account & [basic understanding of GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
@@ -44,7 +48,7 @@ I have only deployed TLJH on Amazon Web Services, but there are great instructio
 ## Part 2: Set up the JupyterHub  
 
 In AWS, under Instances, you can launch/shutdown your instance (Actions>Instance State>Start). Then, your JupyterHub's url will be visible as IPv4 Public IP. Mine looks like this:
-
+![Hub Address][hubAddress]
 
 Copy and paste the URL into a new browser tab and visit your JupyterHub. Log-in with the username and password you set up previously (or set your password on first log-in).
 
@@ -52,11 +56,12 @@ Copy and paste the URL into a new browser tab and visit your JupyterHub. Log-in 
 If you've used Jupyter Notebooks before, this will look familiar. The only difference is that with Hub it's served on the web instead of serving from  your local computer.
 
 
-#### Add all necessary Python packages
+### Add all necessary Python packages
 
 You'll need to add all of the Python packages that you'll be using in the workshop. The default installation comes with most everything you'll need, but likely you'll need to add a few.
 
 Open up a terminal within JupyterHub:
+![Terminal Launch][termLaunch]
 
 You could SSH into your server using the key pair and an SSH client like PuTTY or something similar. But, it's easy and just as effective to use the terminal within JupyterHub.
 
@@ -84,7 +89,7 @@ Following my methods, you will also need to install Git on your instance:
 sudo apt install git
 ```
 
-#### Set up your data directory  
+### Set up your data directory  
 
 There are [different methods of both adding data to your JupyterHub](http://tljh.jupyter.org/en/latest/howto/content/add-data.html) and [distributing data to your users](http://tljh.jupyter.org/en/latest/howto/content/share-data.html#howto-content-share-data). One would be to store data on GitHub and have each individual download it and add it themselves. Another would be to add it to each user's folder. However, there are downsides to those methods: First, having participants add it themselves is one more thing that could fail and that's what we're trying to avoid here, right? Adding it to each person's user directory would require extra planning and hassle on your behalf.
 
@@ -100,11 +105,13 @@ Here are the steps:
 
 1. Create a GitHub repository and add all of the workshop data to the repository. If you're new to GitHub, this is easy. Here is a [GitHub Guide](https://guides.github.com/activities/hello-world/) and [how to upload files](https://help.github.com/en/github/managing-files-in-a-repository/adding-a-file-to-a-repository).
 
-2. On your JupyterHub, navigate to your root directory. In your JupyterHub's terminal, you'll first need to change directory back to the root directory. This should do it:
+2. In your JupyterHub's terminal, you'll first need to change directory back to the root directory. This should do it:
 ```
 cd ../../
 ```
-The working directory will now be jupyter-your_user_name@ip-your_ip_address://. An ```ls``` command should show you the following directories.
+The working directory will now be jupyter-your_user_name@ip-your_ip_address://. An ```ls``` command should show you the following directories:
+![root ls][rootls]
+For future reference, each individual's workspace, including your own, is located in home.
 
 3. Next, create a new folder in your data directory named 'workshopdata'. The data directory is located at //srv//data. From your root directory, use the following command:
 ```
@@ -146,22 +153,70 @@ This will add all of your workshop data on GitHub to your JupyterHub's workshopd
 
 Now, each new user will have a read-only data directory in their space on the JupyterHub.
 
-Using this method underscores the importance of users being able to both navigate filesystems and change directories using Python commands. This means using the Python package 'os'. They'll need to change to their home directories at the beginning of each lesson and access each dataset using the workshopdata/ prefix. [See example here in codeblock 2 and 3](https://outpw.github.io/2.%20Selecting%20%26%20Filtering%20by%20Attributes%3B%20More%20Plotting.html)
+Note*: Using this method underscores the importance of users being able to both navigate filesystems and change directories using Python commands--important computer-literacy skills for any coder. This means using the Python package 'os'. They'll need to change to their home directories at the beginning of each lesson and access each dataset using the workshopdata/ prefix. [See example here in codeblock 2 and 3](https://outpw.github.io/2.%20Selecting%20%26%20Filtering%20by%20Attributes%3B%20More%20Plotting.html)
 
-#### Adding Users to the JupyterHub:
+### Adding Users to the JupyterHub:
 Adding users to the JupyterHub is extremely easy. Your choice is when to add them. You can add users in advance, which is helpful if you know you will have a large workshop. But because it is so easy to do, I typically create the users on the fly as workshop participants walk into the room. I will ask them what they want their username to be and then create it.
 
 To create users, click Control Panel in your JupyterHub, then Admin.
 
 Next click add users, then type in user names separated by a return, like this:
+![Add users][addUsers]
 
 
+## Part 3: Distributing workshop Notebooks
 
-### Part 3: Distributing workshop Notebooks
+I like to break different lessons up into different notebooks. For my GeoPandas workshop, I provide [five notebooks](https://github.com/outpw/geopandas_notebooks) that the participants work through. The notebooks include prompts for the participants, and they have to type all the code and run it themselves. The markdown functionality in notebooks also let's you ask questions and give the participants some problem solving activities.
 
+To distribute the notebooks, I use [nbgitpuller, following the instructions provided by TLJH](http://tljh.jupyter.org/en/latest/howto/content/nbgitpuller.html#howto-content-nbgitpuller). This requires that you keep your Notebooks in a GitHub repository. This is separate from the repository used to store the workshop data. I usually also provide completed versions of the notebooks in a folder in the same repository. [For example.](https://github.com/outpw/geopandas_notebooks)
 
-### Part 4: Upgrading your EC2 instance
+nbgitpuller creates a simple link that will pull the notebooks from your GitHub repository and add them to each user's workspace on the JupyterHub. Participants will just need to visit the nbgitpuller link and all the notebooks will be added to their space on the hub. [See my workshop docs](https://outpw.github.io/tutorials/GeoPandas-setup.html) for an example of how this is presented to the workshop attendees.
 
+All you need is the link to your JupyterHub and the pull link to your GitHub repository (which should be something like this: https://github.com/your_user_name/your_repo.git)
+
+You may want to consider creating a shortened [bitly link](https://app.bitly.com/bbt2/) of the nbgitpuller link to share with workshop participants.
+
+An added bonus of this method is that your workshop materials are still available for people to run on their personal computers at a later date.
+
+## Part 4: Upgrading your EC2 instance
+
+### Considerations
+If you installed TLJH on a t2.micro instance, you will need to upgrade it prior to the workshop. There are two considerations: memory (RAM) and volume (storage space). This is important because if everyone is running a memory-intensive process at the same time during the workshop it can max out the server's memory and start bouncing people from the JupyterHub. Best avoided.
+
+It is also best to avoid running memory-intensive tasks on large data sets during the workshop. Keep the analysis to smaller data sets to avoid over-taxing your system's memory.
+
+Deciding on how much memory is needed is a function of how much RAM your notebooks use at a given time and how many users are concurrently using it. This is fairly straightforward to estimate. When you're running a notebook on JupyterHub, it informs you in the top right how much RAM is being used at that moment:
+
+I add up the total amount of RAM it takes to run all of the workshop notebooks at the same time, then multiply that by the maximum amount of possible concurrent users. If your participants register ahead of time, this should be easy to figure out. In my experience, t2.xlarge has worked great, but you could probably get by with t2.large instead (or perhaps even less). I usually instruct my participants to close and halt their notebooks when finished so other notebooks aren't running needlessly and taking up valuable memory. [You can view all of the instance options & here](https://www.ec2instances.info/). You can also view all instance types in your EC2 Dashboard under Instance Types.
+
+Volume is a question of how much space the workshop data and notebooks take up on your server instance. It is advantageous to place all workshop data in a read-only folder to avoid unnecessary duplication. This way your server space is limited to just one copy of the workshop data, each participant's notebooks, and whatever other data/notebooks you've used in your admin account while planning/testing the workshop. Estimating how much volume is required is simple. Multiply the total size of all notebooks times total concurrent users, then add the sum of the workshop data.
+
+### Start by upgrading your EC2 instance:
+This part is easy.
+1. After logging into AWS, navigate to the AWS Management Console and click EC2. On your EC2 Dashboard, click Instances to view your instance.
+
+2. Shut down your instance if it is running by clicking Action > Instance State > Start/Stop:
+![Stop Instance][instanceStop]
+
+3. Go to Actions > Instance Settings > Change Instance Type
+![Instance Type][instanceType]
+
+4. Choose an appropriate instance:
+![Choose Type][instanceChoose]
+
+### Expand your server's volume:
+
+1. After logging into AWS, navigate to the AWS Management Console and click EC2. On your EC2 Dashboard, select Volumes under Elastic Block Store:
+
+2. View your server's volume under Size. Yours is likely 2,4, or 8 GiB. Mine is 16:
+![EBS Volume][EBSvolume]
+3. Click Actions > Modify Volume:
+![Modify Volume][modVol]
+
+4. Change the size to an appropriate volume. 8 is probably okay. I chose 16 just to be safe. Then click Modify.
+![Modify Volume2][modVol2]
+
+5. Next, <em>and this is important</em>, you have to tell your server you to expand to its new size. [Refer to the directions for extending a t2 instance here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/recognize-expanded-volume-linux.html). You will use your JupyterHub terminal and the ```sudo growpart``` commands as demonstrated under the Extending a Partition > T2 Instance example. You can use the ```lsblk``` command to check your volume before and after. Use the ```df``` command to check how much space is currently used.
 
 ### Final Notes
 
@@ -169,5 +224,20 @@ Next click add users, then type in user names separated by a return, like this:
 
 - I usually create a second user account for myself set up as a non-admin so I can test everything ahead of time to ensure things work as expected from the participant's perspective. I also use this non-admin user account during the workshop, and delete the notebooks folder so I walk through the exact same steps as each participant, and we all see the same things happening.
 
+- A nice touch is to save your completed notebooks as html and then put them on the internet. This way they can be viewed later by the workshop participants or anyone. I add them to my github.io site then link to them: https://outpw.github.io/3.%20Joins%20%26%20Choropleth%20Plot.html  
+
+- Following the recommendation of my friend Evan Thornberry (GIS Librarian @ UBC), I've recently started using [Jekyll](https://jekyllrb.com/) to host my workshop docs, including this document. I use this along with a github.io site to host workshop documentation that anyone can access anytime. This is all free!
+
 [Python]: img/PythonLogo.png
 [JupyterHub]: img/hublogo.png
+[instanceStop]: img/instanceStartStop.png
+[instanceType]: img/instanceType.png
+[instanceChoose]: img/instanceChoose.png
+[EBSvolume]: img/EBSvol.png
+[modVol]: img/modVol.png
+[modVol2]: img/modVol2.png
+[myStack]: img/hubStack.svg
+[hubAddress]: img/hubAddress.png
+[termLaunch]: img/termLaunch.png
+[rootls]: img/rootls.png
+[addUsers]: img/addUsers.png
