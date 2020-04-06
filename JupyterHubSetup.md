@@ -7,7 +7,7 @@ nav_order: 4
 # Setting up a JupyterHub for Teaching Workshops on AWS
 
 JupyterHub is a great way to run basic Python coding workshops. People can come in and start coding with zero setup ahead of time on their own machines--all they need is a web browser. This page describes my method of setting up a JupyterHub on Amazon Web Services, adding workshop data to the JupyterHub, and distributing lessons to the participants as Jupyter Notebooks via GitHub.
-![Python Logo][Python] ![Pandas Logo][JupyterHub]  
+![Pandas Logo][JupyterHub]  
 
 ***
 Phil White, Earth Sciences Librarian, University of Colorado Boulder
@@ -143,7 +143,7 @@ sudo git init
 
 7. Now you will pull all of your workshop data from the GitHub repository you created in step one into this workshopdata directory using Git commands. First, connect to your data repository:
 ```
-sudo git remote add origin https://github.com/your_username/you_data_repo.git
+sudo git remote add origin https://github.com/your_username/your_data_repo.git
 ```
 Then pull the data:
 ```
@@ -186,6 +186,7 @@ If you installed TLJH on a t2.micro instance, you will need to upgrade it prior 
 It is also best to avoid running memory-intensive tasks on large data sets during the workshop. Keep the analysis to smaller data sets to avoid over-taxing your system's memory.
 
 Deciding on how much memory is needed is a function of how much RAM your notebooks use at a given time and how many users are concurrently using it. This is fairly straightforward to estimate. When you're running a notebook on JupyterHub, it informs you in the top right how much RAM is being used at that moment:
+![Notebook Memory][notebookMem]
 
 I add up the total amount of RAM it takes to run all of the workshop notebooks at the same time, then multiply that by the maximum amount of possible concurrent users. If your participants register ahead of time, this should be easy to figure out. In my experience, t2.xlarge has worked great, but you could probably get by with t2.large instead (or perhaps even less). I usually instruct my participants to close and halt their notebooks when finished so other notebooks aren't running needlessly and taking up valuable memory. [You can view all of the instance options & here](https://www.ec2instances.info/). You can also view all instance types in your EC2 Dashboard under Instance Types.
 
@@ -220,13 +221,15 @@ This part is easy.
 
 ### Final Notes
 
-- This is an awesome way to run a workshop. Because I take the time to prepare this way, I have never ran into technical issues and problems during the workshop. Each time I teach a workshop using this setup, participants praise the smoothness of the workshop. Everthing just works.
+- This is an awesome way to run a workshop. Because I take the time to prepare this way, I have never ran into technical issues and problems during the workshop. Each time I teach a workshop using this setup, participants praise the smoothness of the workshop. Everything just works. Instead of spending time fixing people's tech problems, I spend the whole class time teaching. If they have a problem, likely, they've just made a typo.
 
 - I usually create a second user account for myself set up as a non-admin so I can test everything ahead of time to ensure things work as expected from the participant's perspective. I also use this non-admin user account during the workshop, and delete the notebooks folder so I walk through the exact same steps as each participant, and we all see the same things happening.
 
 - A nice touch is to save your completed notebooks as html and then put them on the internet. This way they can be viewed later by the workshop participants or anyone. I add them to my github.io site then link to them: https://outpw.github.io/3.%20Joins%20%26%20Choropleth%20Plot.html  
 
 - Following the recommendation of my friend Evan Thornberry (GIS Librarian @ UBC), I've recently started using [Jekyll](https://jekyllrb.com/) to host my workshop docs, including this document. I use this along with a github.io site to host workshop documentation that anyone can access anytime. This is all free!
+
+Questions? Email me: [philip.white@colorado.edu](mailto:philip.white@colorado.edu)
 
 [Python]: img/PythonLogo.png
 [JupyterHub]: img/hublogo.png
@@ -241,3 +244,4 @@ This part is easy.
 [termLaunch]: img/termLaunch.png
 [rootls]: img/rootls.png
 [addUsers]: img/addUsers.png
+[notebookMem]: img/notebookMemory.png
