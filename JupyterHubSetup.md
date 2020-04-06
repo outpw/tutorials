@@ -195,24 +195,26 @@ Volume is a question of how much space the workshop data and notebooks take up o
 
 ### Start by upgrading your EC2 instance:
 This part is easy.
-1. After logging into AWS, navigate to the AWS Management Console and click EC2. On your EC2 Dashboard, click Instances to view your instance.
+1. After logging into AWS, navigate to the AWS Management Console and click EC2. On your EC2 Dashboard, click Instances to view your instance.  
 
-2. Shut down your instance if it is running by clicking Action > Instance State > Start/Stop:
+2. Shut down your instance if it is running by clicking Action > Instance State > Start/Stop:  
 ![Stop Instance][instanceStop]
 
-3. Go to Actions > Instance Settings > Change Instance Type
+3. Go to Actions > Instance Settings > Change Instance Type  
 ![Instance Type][instanceType]
 
-4. Choose an appropriate instance:
+4. Choose an appropriate instance:  
 ![Choose Type][instanceChoose]
 
 ### Expand your server's volume:
 
 1. After logging into AWS, navigate to the AWS Management Console and click EC2. On your EC2 Dashboard, select Volumes under Elastic Block Store:
-
-2. View your server's volume under Size. Yours is likely 2,4, or 8 GiB. Mine is 16:
 ![EBS Volume][EBSvolume]
-3. Click Actions > Modify Volume:
+
+2. View your server's volume under Size. Yours is likely 2,4, or 8 GiB. Mine is 16:  
+![Volume Size][volSize]
+
+3. Click Actions > Modify Volume:  
 ![Modify Volume][modVol]
 
 4. Change the size to an appropriate volume. 8 is probably okay. I chose 16 just to be safe. Then click Modify.
@@ -246,3 +248,4 @@ Questions? Email me: [philip.white@colorado.edu](mailto:philip.white@colorado.ed
 [rootls]: img/rootls.png
 [addUsers]: img/addUsers.png
 [notebookMem]: img/notebookMemory.png
+[volSize]: img/volSize.png
