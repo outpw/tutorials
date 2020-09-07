@@ -1,6 +1,5 @@
 ---
 title: GIS Miniseries
-parent: Home
 has_children: false
 nav_order: 2
 ---
