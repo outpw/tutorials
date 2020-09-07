@@ -16,12 +16,15 @@ Instructor: Phil White, Earth, Environment and Geospatial Librarian
 ***
 Mini Workshop 1: GIS Intro  
 
-<iframe width="560" height="315" frameborder="0" marginheight="0" marginwidth="0" src="https://outpw.github.io/GIS_Mini1.html"></iframe>
+<iframe width="560" height="315" frameborder="0" marginheight="0" marginwidth="0" src="https://outpw.github.io/GIS_Mini1.html"></iframe>  
+
+[fullscreen][GIS_mini1]
 
 
 
 
 [Python]: img/PythonLogo.png
 [Pandas]: img/Pandas_logo.png
-[GISLibGuide]: https:libguides.colorado.edu/GIS "CU Library GIS guide"
-[GeospatialDataGuide]: https:libguides.colorado.edu/geospatialdata "CU Library geospatial data guide"
+[GIS_Mini1]: https://outpw.github.io/GIS_Mini1.html "GIS Mini 1 slides"
+[GISLibGuide]: https://libguides.colorado.edu/GIS "CU Library GIS guide"
+[GeospatialDataGuide]: https://libguides.colorado.edu/geospatialdata "CU Library geospatial data guide"
