@@ -6,7 +6,7 @@ nav_order: 2
 
 # GIS Mini Workshop Series
 
-Welcome to the Fall 2020 GIS Mini Workshop Series! On this page you can find slides and materials for all the mini workshops, as well as links to all of my GIS workshops. 
+Welcome to the Fall 2020 GIS Mini Workshop Series! On this page you can find slides and materials for all the mini workshops, as well as links to all of my GIS workshops.
 
 ***
 Instructor: Phil White, Earth, Environment and Geospatial Librarian
@@ -14,8 +14,9 @@ Instructor: Phil White, Earth, Environment and Geospatial Librarian
 [philip.white@colorado.edu](mailto:philip.white@colorado.edu)
 
 ***
-Mini Workshop 1: GIS Intro
-<iframe src="https://outpw.github.io/GIS_Mini1.html"</iframe>
+Mini Workshop 1: GIS Intro  
+
+<iframe width="400" height="400" marginheight="0" marginwidth="0" src="https://outpw.github.io/GIS_Mini1.html"</iframe>
 
 
 
