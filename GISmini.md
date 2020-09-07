@@ -16,7 +16,7 @@ Instructor: Phil White, Earth, Environment and Geospatial Librarian
 ***
 Mini Workshop 1: GIS Intro  
 
-<iframe width="400" height="400" marginheight="0" marginwidth="0" src="https://outpw.github.io/GIS_Mini1.html"></iframe>
+<iframe marginheight="0" marginwidth="0" src="https://outpw.github.io/GIS_Mini1.html"></iframe>
 
 
 
