@@ -1,13 +1,12 @@
 ---
-title: GeoPandas
-has_children: true
-nav_order: 4
+title: GIS Miniseries
+has_children: false
+nav_order: 2
 ---
 
-# GeoPandas Workshop
+# GIS Mini Workshop Series
 
-Welcome to the GeoPandas workshop guide page. On this page you can find general information about the workshop and links to relevant documentation and materials. All of the workshop data and materials are linked below and available on GitHub.  
-![Python Logo][Python] ![Pandas Logo][Pandas]  
+Welcome to the Fall 2020 GIS Mini Workshop Series! On this page you can find slides and materials for all the mini workshops, as well as links to all of my GIS workshops. 
 
 ***
 Instructor: Phil White, Earth, Environment and Geospatial Librarian
@@ -15,8 +14,8 @@ Instructor: Phil White, Earth, Environment and Geospatial Librarian
 [philip.white@colorado.edu](mailto:philip.white@colorado.edu)
 
 ***
-
-
+Mini Workshop 1: GIS Intro
+<iframe src="https://outpw.github.io/GIS_Mini1.html"</iframe>
 
 
 

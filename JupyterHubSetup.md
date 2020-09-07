@@ -10,7 +10,7 @@ JupyterHub is a great way to run basic Python coding workshops. People can come 
 ![Pandas Logo][JupyterHub]  
 
 ***
-Phil White, Earth Sciences Librarian, University of Colorado Boulder
+Phil White, Earth Sciences Librarian, University of Colorado Boulder  
 [philip.white@colorado.edu](mailto:philip.white@colorado.edu)
 
 ***
