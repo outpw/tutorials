@@ -8,11 +8,15 @@ has_children: false
 
 ## Welcome!
 
+I'm Phil White, and I'm the Earth, Environment & Geospatial Librarian at the University of Colorado Boulder. This page is the online home of my workshops.
+
+Got a question? Email me: [philip.white@colorado.edu](mailto:philip.white@colorado.edu)
+
 ### Here are some workshops for ya:
 ---  
 
 Table of Contents:  
-1. [GIS Mini Introductory Workshop Miniseries][GISminiseries]
+1. [GIS Introductory Workshop Miniseries][GISminiseries]
 2. [QGIS][QGISworkshop]
 3. [GeoPandas][GeoPandasworkshop]
 
