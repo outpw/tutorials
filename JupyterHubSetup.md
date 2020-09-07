@@ -1,7 +1,7 @@
 ---
 title: JupyterHub Setup
 has_children: false
-nav_order: 4
+nav_order: 5
 ---
 
 # Setting up a JupyterHub for Teaching Workshops on AWS
@@ -10,7 +10,7 @@ JupyterHub is a great way to run basic Python coding workshops. People can come 
 ![Pandas Logo][JupyterHub]  
 
 ***
-Phil White, Earth Sciences Librarian, University of Colorado Boulder  
+Phil White, , Earth, Environment & Geospatial Librarian, University of Colorado Boulder  
 [philip.white@colorado.edu](mailto:philip.white@colorado.edu)
 
 ***
