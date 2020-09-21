@@ -27,6 +27,16 @@ Mini Workshop 2: Your GIS Toolbelt
 [fullscreen][GIS_Mini2]
 
 
+Mini Workshop 3: Data & Data Sources  
+
+<iframe width="560" height="315" frameborder="0" marginheight="0" marginwidth="0" src="https://outpw.github.io/gis_mini3.html"></iframe>  
+
+[fullscreen][GIS_Mini2]
+
+Finding Data YouTube Playlist:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLFJbRPIiQTK6Q21gjTOK8K1Ic1Y8t1tVq" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 [Python]: img/PythonLogo.png
 [Pandas]: img/Pandas_logo.png
