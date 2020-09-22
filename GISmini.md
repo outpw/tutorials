@@ -31,7 +31,7 @@ Mini Workshop 3: Data & Data Sources
 
 <iframe width="560" height="315" frameborder="0" marginheight="0" marginwidth="0" src="https://outpw.github.io/gis_mini3.html"></iframe>  
 
-[fullscreen][GIS_Mini2]
+[fullscreen][GIS_Mini3]
 
 Finding Data YouTube Playlist:
 
@@ -42,5 +42,6 @@ Finding Data YouTube Playlist:
 [Pandas]: img/Pandas_logo.png
 [GIS_Mini1]: https://outpw.github.io/gis_mini1.html "GIS Mini 1 slides"
 [GIS_Mini2]: https://outpw.github.io/gis_mini2.html "GIS Mini 2 slides"
+[GIS_Mini3]: https://outpw.github.io/gis_mini3.html "GIS Mini 3 slides"
 [GISLibGuide]: https://libguides.colorado.edu/GIS "CU Library GIS guide"
 [GeospatialDataGuide]: https://libguides.colorado.edu/geospatialdata "CU Library geospatial data guide"
