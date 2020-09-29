@@ -49,6 +49,6 @@ Mini Workshop 4: Map Design
 [GIS_Mini1]: https://outpw.github.io/gis_mini1.html "GIS Mini 1 slides"
 [GIS_Mini2]: https://outpw.github.io/gis_mini2.html "GIS Mini 2 slides"
 [GIS_Mini3]: https://outpw.github.io/gis_mini3.html "GIS Mini 3 slides"
-[GIS_Mini3]: https://outpw.github.io/gis_mini4.html "GIS Mini 3 slides"
+[GIS_Mini4]: https://outpw.github.io/gis_mini4.html "GIS Mini 3 slides"
 [GISLibGuide]: https://libguides.colorado.edu/GIS "CU Library GIS guide"
 [GeospatialDataGuide]: https://libguides.colorado.edu/geospatialdata "CU Library geospatial data guide"
