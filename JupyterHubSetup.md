@@ -125,7 +125,7 @@ cd /etc/skel
 ```
 Then, create the alias directory:
 ```
-sudo mkdir -p /srv/data/workshopdata workshopdata
+sudo ln -s /srv/data/workshopdata workshopdata
 ```
 
 5. Now, navigate back to your 'workshopdata' folder. First, back out to your root directory:
