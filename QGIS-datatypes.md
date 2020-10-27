@@ -46,16 +46,16 @@ For shapefiles and typical rasters, you can use the add vector or raster buttons
 
 ![Add data using the Layer Manager Toolbar][QGIS2]
 
-...shapefiles? That's so 90's! __Let's add a SpatiaLite layer:__
+...shapefiles? That's so 90's! __Let's add a GeoPackage layer:__
 
-1. Click the Add Vector Layer button:![SpatialLite Button][QGIS30]
+1. Click the Add Vector Layer button:![Vector Button][QGIS30]
 2. Navigate to your data, select the QGISworkshop.gpkg and click OK:  
 ![Geopackage dialog][QGIS31]  
 
 3. Next, choose the layer you want to add and click OK:  
 ![Add gpkg layer][QGIS32]  
 
-_You're done!_  
+__You're done!__  
 
 *Tip:* You can also add data straight from the Browser by just dragging and dropping:  
 ![Add from browser][QGIS33]
