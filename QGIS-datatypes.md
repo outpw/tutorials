@@ -94,4 +94,7 @@ _You're done!_
 [QGIS28]: img/QGIS28.png "Use this tool to adjust the map within the frame"
 [QGIS29]: img/QGIS29.png "Map layout export tools"
 [QGIS30]: img/QGIS30.png "Add vector layer button"
+[QGIS31]: img/QGIS31.png "add gpkg"
+[QGIS32]: img/QGIS32.png "add gpkg layer"
+[QGIS33]: img/QGIS33.png "add by drag & drop"
 [VECTOR]: https://upload.wikimedia.org/wikipedia/commons/3/38/Simple_vector_map.svg "Source: wikimedia"
