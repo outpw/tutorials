@@ -48,17 +48,17 @@ For shapefiles and typical rasters, you can use the add vector or raster buttons
 
 ...shapefiles? That's so 90's! __Let's add a SpatiaLite layer:__
 
-1. Click the SpatialLite button:![SpatialLite Button][QGIS3]
-2. Under Connections, click "New" then navigate to the COLORADO.sqlite workshop data and click Open. The COLORADO.sqlite database should appear in the drop down menu.
-3. Click "Connect"
-4. Use SHIFT+click to select all layers, then click "ADD"
-5. Click "ADD"
+1. Click the Add Vector Layer button:![SpatialLite Button][QGIS30]
+2. Navigate to your data, select the QGISworkshop.gpkg and click OK:  
+![Geopackage dialog][QGIS31]  
 
-Congrats, you have a big hot mess (Turn off what you don't need).
+3. Next, choose the layer you want to add and click OK:  
+![Add gpkg layer][QGIS32]  
 
-![SpatiaLite dialog][QGIS4]
+_You're done!_  
 
-
+*Tip:* You can also add data straight from the Browser by just dragging and dropping:  
+![Add from browser][QGIS33]
 
 
 
@@ -93,4 +93,5 @@ Congrats, you have a big hot mess (Turn off what you don't need).
 [QGIS27]: img/QGIS27.png "New Layout Button"
 [QGIS28]: img/QGIS28.png "Use this tool to adjust the map within the frame"
 [QGIS29]: img/QGIS29.png "Map layout export tools"
+[QGIS30]: img/QGIS30.png "Add vector layer button"
 [VECTOR]: https://upload.wikimedia.org/wikipedia/commons/3/38/Simple_vector_map.svg "Source: wikimedia"
