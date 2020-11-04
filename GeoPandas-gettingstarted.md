@@ -1,7 +1,7 @@
 ---
-title: 1. Getting Started
+title: "1. Getting Started"
 parent: GeoPandas
-has_children: true
+has_children: yes
 nav_order: 1
 ---
 
