@@ -6,14 +6,17 @@ nav_order: 4
 
 # ArcGIS Pro Workshop
 
-Welcome to the QGIS Introductory workshop guide page. During the workshop, we will walk through the information and tasks detailed on these pages. Use the table of contents to navigate through the workshop. If you're new to QGIS, we recommend [Getting Started here!](/QGIS-gettingstarted)  
+Welcome to the ArcGIS Pro  workshop guide page. During the workshop, we will walk through the information and tasks detailed on these pages. Use the table of contents to navigate through the workshop.
+
+<img src='img/esrilogo.png' height='75' alt='Esri logo'>   <img src='img/ProIcon.ico' height='75' alt='ArcGIS Pro icon'>
 
 ___
 
 Instructor: Phil White *Earth, Environment & Geospatial Librarian*  
 [philip.white@colorado.edu]('mailto:philip.white@colorado.edu')
 
-![The Esri Logo][ARCPRO0] ![ArcGIS Pro Logo][ARCPRO1]
+
+
 
 ### [__Download the Workshop Data!__](https://github.com/outpw/workshopdata/raw/master/ArcGISPro_WorkshopS20.gdb.zip)
 
