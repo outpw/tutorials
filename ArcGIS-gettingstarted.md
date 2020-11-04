@@ -27,13 +27,13 @@ __Documentation:__
 
     ![Name your project][ARCPRO2]
 
-__Connect a GeoDataBase__
+    __Connect a GeoDataBase__
 
 3. From the Insert tab add data folders or connect geodatabases where your data lives:  
 
     ![Connect your folders][ARCPRO3]
 
-__Add a map__
+    __Add a map__
 
 4. From the Insert tab, click New Map to add a map:  
 
