@@ -37,7 +37,7 @@ You may want to change the projection of your map for stylistic purposes
 
 *Note: this only changes the display of your map, not the underlying coordinate system of your data layers*
 
-    ![Snappy Map][ARCPRO13]
+![Snappy Map][ARCPRO13]
 
 
 [ARCPRO0]: img/esrilogo.png "Esri logo"
