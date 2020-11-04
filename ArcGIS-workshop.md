@@ -8,11 +8,11 @@ nav_order: 4
 
 Welcome to the ArcGIS Pro  workshop guide page. During the workshop, we will walk through the information and tasks detailed on these pages. Use the table of contents to navigate through the workshop.
 
-<img src='img/esrilogo.png' height='75px' alt='Esri logo'>   <img src='img/ProIcon.ico' height='75px' alt='ArcGIS Pro icon'>
+<img src='img/esrilogo.png' style='height:75px' alt='Esri logo'>   <img src='img/ProIcon.ico' style='height:75px' alt='ArcGIS Pro icon'>
 
 ___
 
-Instructor: Phil White *Earth, Environment & Geospatial Librarian*  
+Instructor: __Phil White__ *Earth, Environment & Geospatial Librarian*  
 [philip.white@colorado.edu]('mailto:philip.white@colorado.edu')
 
 
