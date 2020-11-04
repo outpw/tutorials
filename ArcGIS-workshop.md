@@ -8,7 +8,7 @@ nav_order: 4
 
 Welcome to the ArcGIS Pro  workshop guide page. During the workshop, we will walk through the information and tasks detailed on these pages. Use the table of contents to navigate through the workshop.
 
-<img src='img/esrilogo.png' height='75' alt='Esri logo'>   <img src='img/ProIcon.ico' height='75' alt='ArcGIS Pro icon'>
+<img src='img/esrilogo.png' height='75px' alt='Esri logo'>   <img src='img/ProIcon.ico' height='75px' alt='ArcGIS Pro icon'>
 
 ___
 
