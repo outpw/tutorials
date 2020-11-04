@@ -20,12 +20,12 @@ nav_order: 3
 2. Select the Counties Layer  
 3. On the Appearance tab, select an option for styling, such as by unique values or graduated colors  
 
-![Appearance Tab][ARCPRO11]  
+    ![Appearance Tab][ARCPRO11]  
 
 4. Under Fields, select Pop_Dens from the Value menu (this corresponds with the Pop_Dens field in the attribute table)  
 5. Ta da! You've made a choropleth map that shows population density. Hurrah!  
 
-![Symbology Tab][ARCPRO12]  
+    ![Symbology Tab][ARCPRO12]  
 
 ### Changing the displayed projection  
 
@@ -37,7 +37,7 @@ You may want to change the projection of your map for stylistic purposes
 
 *Note: this only changes the display of your map, not the underlying coordinate system of your data layers*
 
-![Snappy Map][ARCPRO13]
+    ![Snappy Map][ARCPRO13]
 
 
 [ARCPRO0]: img/esrilogo.png "Esri logo"
