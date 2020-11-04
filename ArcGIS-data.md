@@ -28,21 +28,22 @@ Raster data example
 
 ### Adding Data  
 
-1. The standard way to add data is pressing teh Add Data button on the Map tab: ![Add data button][ARCPRO6]  
+1. The standard way to add data is pressing teh Add Data button on the Map tab:  
+  ![Add data button][ARCPRO6]  
 
 2. You can also drag and drop from the Catalog Tab:
-![Add data from Catalog][ARCPRO7]
+  ![Add data from Catalog][ARCPRO7]
 
 ### Data Properties and Attributes  
 
-- Right click on a layer in the Table of Contents to view Properties.  
-- You can also right click to view the Attribute Table:  
+1. Right click on a layer in the Table of Contents to view Properties.  
+2. You can also right click to view the Attribute Table:  
 
-![Right click on a layer][ARCPRO8]  
+  ![Right click on a layer][ARCPRO8]  
 
 - Familiarize yourself with the data layer's properties and attribute table... *they are important!*  
 
-![Attribute Table][ARCPRO9]
+  ![Attribute Table][ARCPRO9]
 
 [ARCPRO0]: img/esrilogo.png "Esri logo"
 [ARCPRO1]: img/ArcGIS1.jpg "start screen"

@@ -21,23 +21,23 @@ __Documentation:__
 
 1. Open up Pro, sign in, and create a blank project (or start without a template)  
 
-![Setting up your project][ARCPRO1]  
+  ![Setting up your project][ARCPRO1]  
 
 2. Name your project and tell Pro where to save it. *Note:* If you already have created a folder for your project, you can unclick the Create new folder option.  
 
-![Name your project][ARCPRO2]
+  ![Name your project][ARCPRO2]
 
 ### Connect a GeoDataBase
 
 3. From the Insert tab add data folders or connect geodatabases where your data lives:  
 
-![Connect your folders][ARCPRO3]
+  ![Connect your folders][ARCPRO3]
 
 ### Add a map
 
 4. From the Insert tab, click New Map to add a map:  
 
-![Insert a map][ARCPRO4]
+  ![Insert a map][ARCPRO4]
 
 ### The ArcGIS Pro Desktop Interface:
 ![The ArcGIS interface][ARCPRO5]  
