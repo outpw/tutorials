@@ -18,7 +18,7 @@ Instructor: __Phil White__ *Earth, Environment & Geospatial Librarian*
 
 
 
-### [__Download the Workshop Data!__](https://github.com/outpw/workshopdata/raw/master/ArcGISPro_WorkshopS20.gdb.zip)
+### [__Download the Workshop Data!__](https://github.com/outpw/workshopdata/raw/master/ArcGISPro_WorkshopF20.gdb.zip)
 
 
 
