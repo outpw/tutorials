@@ -1,7 +1,6 @@
 ---
 title: JupyterHub Setup
-has_children: false
-nav_order: 5
+nav_order: 8
 ---
 
 # Setting up a JupyterHub for Teaching Workshops on AWS

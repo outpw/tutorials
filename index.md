@@ -1,10 +1,11 @@
 ---
-
 title: Home
 nav_order: 1
 has_children: false
 
 ---
+
+### I have migrated these documents to: [outpw.github.io/GIS-workshops](https:outpw.github.io/GIS-workshops). Please head there for the latest!
 
 ## Welcome!
 
